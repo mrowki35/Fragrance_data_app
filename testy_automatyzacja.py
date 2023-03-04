@@ -3,6 +3,8 @@ from openpyxl import load_workbook
 from openpyxl.utils import get_column_letter
 from bs4 import BeautifulSoup
 import requests
+from datetime import date 
+
 
 url = "https://www.notino.pl/jimmy-choo/urban-hero-gold-woda-perfumowana-dla-mezczyzn/"
 
@@ -26,10 +28,11 @@ stamp = brands_parent.find_all("span")
 genre = stamp[1].text
 brand = stamp[0].text.replace(genre,"")
 category = stamp[2].text
-    
+date=date.today().strftime("%d.%m.%Y")
 
 
 wb = load_workbook("Parfume_prices_database.xlsx")
 ws = wb.active
-ws.append([genre,brand,category,volume, float(price),url])
+
+ws.append([genre,brand,category,volume, float(price),url,date])
 wb.save("Parfume_prices_database.xlsx")

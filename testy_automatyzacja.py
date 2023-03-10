@@ -34,5 +34,5 @@ date=date.today().strftime("%d.%m.%Y")
 wb = load_workbook("Parfume_prices_database.xlsx")
 ws = wb.active
 
-ws.append([genre,brand,category,volume, float(price),url,date])
+ws.append([genre,brand,category,volume,float(price), url,date])
 wb.save("Parfume_prices_database.xlsx")

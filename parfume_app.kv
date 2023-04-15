@@ -1,0 +1,103 @@
+#:kivy 2.1.0
+#:import utils kivy.utils
+WindowManager:
+    MainWindow:
+
+
+<MainWindow>:
+    ross_url:ross_url
+    notino_url:notino_url
+    empik_url:empik_url
+    hebe_url:hebe_url
+    douglas_url:douglas_url
+    smyk_url:smyk_url
+    superph_url:superph_url
+    Carousel:
+        loop: True
+        FloatLayout:
+            orientation: 'vertical'
+            Image:
+                pos: self.pos
+                size: self.size
+                source: "Pafume_app_background.png"
+                allow_stretch: True
+                keep_ratio: False
+            TextInput:
+                pos_hint: {'center_x': .5, 'center_y': .93}
+                size_hint:(0.5,0.08)
+                hint_text:'Rossman'
+                multiline:True
+                background_color: (1,1,1,0.1)
+                background_normal: '' 
+                bold: True
+                font_size: 15
+                id:ross_url
+            TextInput:
+                pos_hint: {'center_x': .5, 'center_y': .81}
+                size_hint:(0.5,0.08)
+                hint_text:'Notino'
+                multiline:True
+                background_color: (1,1,1,0.1)
+                background_normal: '' 
+                bold: True
+                font_size: 15
+                id:notino_url
+            TextInput:
+                pos_hint: {'center_x': .5, 'center_y': .69}
+                size_hint:(0.5,0.08)
+                hint_text:'Superpharm'
+                multiline:True
+                background_color: (1,1,1,0.1)
+                background_normal: '' 
+                bold: True
+                font_size: 15
+                id:superph_url
+            TextInput:
+                pos_hint: {'center_x': .5, 'center_y': .57}
+                size_hint:(0.5,0.08)
+                hint_text:'Empik'
+                multiline:True
+                background_color: (1,1,1,0.1)
+                background_normal: '' 
+                bold: True
+                font_size: 15
+                id:empik_url
+            TextInput:
+                pos_hint: {'center_x': .5, 'center_y': .45}
+                size_hint:(0.5,0.08)
+                hint_text:'Hebe'
+                multiline:True
+                background_color: (1,1,1,0.1)
+                background_normal: '' 
+                bold: True
+                font_size: 15
+                id:hebe_url
+            TextInput:
+                pos_hint: {'center_x': .5, 'center_y': .33}
+                size_hint:(0.5,0.08)
+                hint_text:'Douglas'
+                multiline:True
+                background_color: (1,1,1,0.1)
+                background_normal: '' 
+                bold: True
+                font_size: 15
+                id:douglas_url
+            TextInput:
+                pos_hint: {'center_x': .5, 'center_y': .21}
+                size_hint:(0.5,0.08)
+                hint_text:'Smyk'
+                multiline:True
+                background_color: (1,1,1,0.1)
+                background_normal: '' 
+                bold: True
+                font_size: 15
+                id:smyk_url
+            Button:
+                size_hint:(0.5,0.1)
+                pos_hint: {'center_x': .5, 'center_y': .09}
+                text:"Submit"
+                background_color: (1,1,1,0.1)
+                bold: True
+                background_normal: ''
+                font_size: 26 
+                on_release: root.on_press()

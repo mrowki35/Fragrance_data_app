@@ -1,9 +1,8 @@
 # Parfume_Prices_Tracker
 This is a simple application designed to retrieve and store prices and data of fragrances from the most popular beauty retailer websites. The application scrapes individual web pages to extract information such as product names, capacities, and other relevant data.
 
-
-# Table of contents
 ---
+# Table of contents
 1. [How it works](#how-it-works)
 2. [Example Input/Output](#example-inputoutput)
 3. [Libraries Used](#libraries-used)

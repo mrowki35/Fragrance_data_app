@@ -22,11 +22,15 @@ First you need to create an Excel, where you want store of the collected data. T
 ---
 
 ## Example Input/Output
-(Tu umieść przykład danych wejściowych i wyjściowych)
+![Input](Images/Zrzut%20ekranu%202023-05-26%20130600.png)
+![Output](Images/Zrzut%20ekranu%202023-05-26%20130631.png)
+
 
 ---
 ## Libraries Used
-(Tu umieść informacje o użytych bibliotekach)
+- Kivy
+- Openpyxl
+- BeautifulSoup4
 
 ---
 ## Getting Started

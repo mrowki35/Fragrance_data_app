@@ -8,7 +8,7 @@ This is a simple application designed to retrieve and store prices and data of m
 3. [Libraries Used](#libraries-used)
 4. [Getting Started](#getting-started)
 5. [Automating the process](#automating-the-process)
-6. [Todo](#todo)
+6. [TODO](#todo)
 ---
 ## How it works
 (Tu umieść opis działania aplikacji)
@@ -31,6 +31,6 @@ This is a simple application designed to retrieve and store prices and data of m
 (Tu umieść informacje dotyczące automatyzacji procesu)
 
 ---
-## Todo
+## TODO
 
 ---

@@ -13,11 +13,11 @@ This is a simple application designed to retrieve and store prices and data of m
 ## How it works
 First you need to create an Excel, where you want store of the collected data. Then the only thing you have to do is going the website of your favourite product and copy the link. After pasting it to the correct place in the app you just need to push the button.
 
-![Basic app view]([Images/Zrzut ekranu 2023-05-26 125647.png](https://github.com/mrowki35/Web_ScrapingandDataAnalysis/blob/main/Images/Zrzut%20ekranu%202023-05-26%20125647.png))
+![Basic app view](Images/Zrzut%20ekranu%202023-05-26%20125647.png)
 
-![Pasting the links](Images/Zrzut ekranu 2023-05-26 130127.png)
-![Wrong links](Images/Zrzut ekranu 2023-05-26 130600.png)
-![GREEN=OK RED=WRONG LNK](Images/Zrzut ekranu 2023-05-26 130631.png)
+![Pasting the links](Images/Zrzut%20ekranu%202023-05-26%20130127.png)
+![Wrong links](Images/Zrzut%20ekranu%202023-05-26%20130600.png)
+![GREEN=OK RED=WRONG LNK](Images/Zrzut%20ekranu%202023-05-26%20130631.png)
 
 ---
 

@@ -30,5 +30,7 @@ This is a simple application designed to retrieve and store prices and data of m
 ## Automating the process
 (Tu umieść informacje dotyczące automatyzacji procesu)
 
---
+---
 ##Todo
+
+---

@@ -22,8 +22,8 @@ First you need to create an Excel, where you want store of the collected data. T
 ---
 
 ## Example Input/Output
-![Input](Images/Zrzut%20ekranu%202023-05-26%20130600.png)
-![Output](Images/Zrzut%20ekranu%202023-05-26%20130631.png)
+![Input](Images/Zrzut%20ekranu%202023-05-26%20142524.png)
+![Output](Images/Zrzut%20ekranu%202023-05-26%20142737.png)
 
 
 ---
